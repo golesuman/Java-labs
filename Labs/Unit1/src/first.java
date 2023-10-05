@@ -9,18 +9,17 @@ public class first {
                 continue;
             }
             else {
-                return 1;
+                return 0;
             }
 
 
         }
-        return 0;
+        return 1;
     }
 
     public static void main(String[] args) {
         first m = new first();
-        int[] numbers = {2, 3, 4, 5, 6, 4};
+        int[] numbers = {2, 3, 4, 5, 6, 9};
         System.out.println(m.checkBalanced(numbers));
-//    m.checkBalanced(numbers);
     }
 }
